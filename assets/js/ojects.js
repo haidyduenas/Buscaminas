@@ -1,11 +1,17 @@
+
+
+
+
 const minas = inicializaMatriz(); 
 
 function inicializaMatriz(){
     let tabla = [];
+    console.log(tabla);
         for(let i = 0; i < 8; i++){                 
             tabla[i] = [0,0,0,0,0,0,0,0];                   
         }
         return tabla;
+
 }       
 
 function crearTablero(){
