@@ -85,8 +85,8 @@ function colocaNumeroBombas(leti,letj,fini,finj,tablero){
 }
 
 function generarBombas(tablero){
-    let fil = 0;
-    let col = 0;
+    var fil = 0;
+    var  col = 0;
 
     fil = Math.floor((Math.random()*7)+0);
     col = Math.floor((Math.random()*7)+0);
