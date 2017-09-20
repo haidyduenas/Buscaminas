@@ -177,7 +177,12 @@ function newGame() {
     });
 }
 
-//var board;
+var board;
 $(document).ready(function () {
     newGame();
+
+    $('#new-game').click(function (eventObject) {
+        newGame();
+        $('#new-game').hide();
+        });
 })
