@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Buscaminas</title>
+    <title>Minesweeper</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,12 +9,21 @@
     <script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<div id="tablerominas" class="tablero"></div>
+    <header>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div id="title">Minesweeper</div>
+            </div>
+        </div>
+    </header>  
+    <div id="board"></div>
+    <div id="new-game" class="controls">Play again</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="assets/js/clases.js"></script>
+    <script src="assets/js/procedimental.js"></script>
 </body>
 </html>
